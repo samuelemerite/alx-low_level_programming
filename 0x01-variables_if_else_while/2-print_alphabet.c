@@ -7,6 +7,7 @@
 */
 int main(void)
 {
+    int i=0;
     char alpha[]="abcdefghijklmnopqrstuvwxyz";
     for(int i=0; i<26; i++)
     {
