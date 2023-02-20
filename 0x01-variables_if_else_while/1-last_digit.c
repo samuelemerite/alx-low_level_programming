@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * program prints the last digit of the random
+ * main - prints the last digit of the random
  * number stored in the variable n
- * Return: Always 0 (if it is a Success)
+ * Return: Always 0 
  */
 int main(void)
 {
