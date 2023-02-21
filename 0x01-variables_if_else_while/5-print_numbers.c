@@ -11,7 +11,7 @@ int main(void)
 {
 char alpha[] = "0123456789";
 int i = 0;
-for ( i = 0; i < 10; i++)
+for (i = 0; i < 10; i++)
 {
 putchar(alpha[i]);
 }
