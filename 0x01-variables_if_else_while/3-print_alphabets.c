@@ -8,14 +8,13 @@
  */
 int main(void)
 {
-    char alpha[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$";
-    int i = 0;
-    
-    for ( i = 0; i < 52; i++)
-    {
-        putchar(alpha[i]);
-    }
+char alpha[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$";
+int i = 0;    
+for (i = 0; i < 52; i++)
+{
+  putchar(alpha[i]);
+}
 
-    putchar('\n');
-    return (0);
+putchar('\n');
+return (0);
 }
