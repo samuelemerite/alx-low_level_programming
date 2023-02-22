@@ -12,23 +12,23 @@ for (j = 0; j < 10; j++)
 {
 if(j == 0 )
 {
-putchar('0');
+_putchar('0');
 }
 if(i * j < 10 && j != 0)
 {
-putchar(',');
-putchar(' ');
-putchar(' ');
-putchar( (i * j) + '0');
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
+_putchar( (i * j) + '0');
 }
 else if( i * j >= 10)
 {
-putchar(',');
-putchar(' ');
-putchar((i * j/10) + '0');
-putchar(((i * j)%10) +'0');
+_putchar(',');
+_putchar(' ');
+_putchar((i * j/10) + '0');
+_putchar(((i * j)%10) +'0');
 }
 }
-putchar('\n');
+_putchar('\n');
 }
 }
