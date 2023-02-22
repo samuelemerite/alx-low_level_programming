@@ -19,9 +19,9 @@ if (i * j < 10 && j != 0)
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
-_putchar( (i * j) + '0');
+_putchar((i * j) + '0');
 }
-else if ( i * j >= 10)
+else if (i * j >= 10)
 {
 _putchar(',');
 _putchar(' ');
