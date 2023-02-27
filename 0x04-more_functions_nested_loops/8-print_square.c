@@ -14,7 +14,10 @@ for (j = 1; j <= size; j++)
 {
 putchar('#');
 }
+if (i < size)
+{
 putchar('\n');
+}
 }
 putchar('\n');
 }
