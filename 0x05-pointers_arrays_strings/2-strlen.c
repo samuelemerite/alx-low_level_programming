@@ -3,7 +3,8 @@
 /**
  * _strlen - print the number of character of a word
  * @s: string to print the value of length
- * return: return the length of string
+ *
+ * Return: return the length of string
  */
 int _strlen(char *s)
 {
